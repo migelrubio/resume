@@ -5,9 +5,9 @@ Renders a serach field with icon.
 */
 import { TbSearch } from 'react-icons/tb'
 
-export const SearchField = () => {
+export const SearchField = ({className}) => {
     return(
-        <div className="relative">
+        <div className={`relative ${className}`}>
             <input className="p-2 pl-7 bg-slate-100 rounded" type="search" placeholder='Search'/>
             <TbSearch className="absolute left-0 top-0 ml-2 mt-3"/>
         </div>

@@ -24,9 +24,9 @@ export const NavigationItem = ({ text, icon, href}) => {
     const path = '/' + pathname.split('/')[1]
     const active = href == path
     return(
-        <Link href={href} className={`${active ? 'text-black border-b-2 border-black' : 'text-neutral-500'} hover:text-black flex flex-col items-center w-20`}>
+        <Link href={href} className={`${active ? 'text-black border-b-2 border-black' : 'text-neutral-500'} hover:text-black flex flex-col items-center w-20 pb-2 lg:pb-0`}>
             {iconEl}
-            <span className="text-xs">{text}</span>
+            <span className="text-xs hidden lg:block">{text}</span>
         </Link>
     )
 }

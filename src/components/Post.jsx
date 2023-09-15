@@ -52,7 +52,7 @@ export const Post = ({ post=null}) => {
         return(
             <Card>
                 <div className="p-4 flex flex-col gap-4">
-                    <div className="flex gap-4">
+                    <div className="flex gap-4 items-start">
                         <div className="bg-slate-200 rounded-full">
                             <Image src={user?.image || "/img/avatar.png"} alt={`${user?.firstName} ${user?.lastName}`} width={50} height={50} className="rounded-full"/>
                         </div>
@@ -62,11 +62,11 @@ export const Post = ({ post=null}) => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <p>{post.body}</p>
+                        <p className="text-sm lg:text-base">{post.body}</p>
                         <div className="flex gap-4">
                             {post.links?.map((item,key) => {
                                 return(
-                                    <a key={key} href={item.url} className="flex flex-nowrap items-center cursor-pointer hover:underline" target="_blank">{item.label} <TbLink/></a>
+                                    <a key={key} href={item.url} className="flex flex-nowrap items-center cursor-pointer hover:underline text-sm lg:text-base" target="_blank">{item.label} <TbLink/></a>
                                 )
                             })}
                         </div>
@@ -76,7 +76,7 @@ export const Post = ({ post=null}) => {
                     <Image src={imgUrl} alt="Post Image" width={600} height={post.imageHeight || 0} className="w-full"/>
                 }
                 <div className="p-4 flex flex-col gap-4">
-                    <div className="flex gap-4 justify-end">
+                    <div className="flex gap-4 justify-end flex-wrap">
                         {post.tags?.map((item) => {
                             return(
                                 <a key={item} className="text-sm text-blue-800 cursor-pointer hover:underline" href={`/tags/${item}`}>#{item}</a>
