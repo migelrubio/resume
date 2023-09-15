@@ -62,7 +62,7 @@
             "id": 1003,
             "type": "project",
             "title": "",
-            "body": "A web-based Operating System simulator. A personal development used to display my resume. Simple login screen with user/password validation. Taskbar with window controls. Start Menu with submenus. Desktop icons. Draggable and resizable windows with Close, Maximize and Minimize buttons implemented. Wallpaper rotation. This was used as my personal resume/portfolio back in 2015.",
+            "body": "A web-based Operating System simulator. Simple login screen with user/password validation. Taskbar with window controls. Start Menu with submenus. Desktop icons. Draggable and resizable windows with Close, Maximize and Minimize buttons implemented. Wallpaper rotation. This was used as my personal resume/portfolio back in 2015.",
             "links":[
                 {"label": "Live Demo", "url": "https://webos.maicspace.com"}
             ],

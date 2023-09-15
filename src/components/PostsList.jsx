@@ -14,7 +14,7 @@ export const PostsList = ({data=[], tag=null, infinite=true}) => {
         setLoading(true)
         const data = await getRandomPosts()
         //console.log(data)
-        setPosts(current => [...current, ...data.posts])
+        setPosts(current => [...current, ...data])
         //console.log(posts)
         setLoading(false)
     }
