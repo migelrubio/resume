@@ -1,0 +1,171 @@
+{
+    "data": [
+        {
+            "id": 1000,
+            "type": "project",
+            "title": "",
+            "body": "This project is a web application build using NextJs and React to show my resume as a social media platform. It shows my job history and side projects as posts. Has the ability to filter by technologies used or 'tags'. Home page has some random posts fetched from DummyJson along with random images from Picsum Photos. Posts can be liked and commented.",
+            "links":[
+                {"label": "DummyJson", "url": "https://dummyjson.com"},
+                {"label": "Picsum Photos", "url": "https://picsum.photos"}
+            ],
+            "date": "Sep 2023",
+            "tags": ["html", "css", "javascript", "nextjs", "react", "tailwind"],
+            "noImage": true,
+            "user": {
+                "firstName": "Web Developer Resume",
+                "lastName": "",
+                "maidenName": "",
+                "image": "/img/avatar.png"
+            }
+        },
+        {
+            "id": 1001,
+            "type": "project",
+            "title": "",
+            "body": "A Wordpress plugin built with React that displays song lyrics on laptop or desktop computers. Wordpress was used as backed as an excercise. The goal of this plugin is to display any text divided into columns as big as possible whitin the viewport. It is intended to display songs lyrics and/or tabs while playing the guitar and avoid having to scroll the page.",
+            "links":[
+                {"label": "Live Demo", "url": "https://maicspace.com/wp"}
+            ],
+            "date": "2022",
+            "tags": ["html", "css", "javascript", "wordpress", "react", "bootstrap", "jquery"],
+            "noImage": false,
+            "image": "/img/cancionero_screenshot.png",
+            "user": {
+                "firstName": "Cancionero",
+                "lastName": "",
+                "maidenName": "",
+                "image": "/img/avatar.png"
+            }
+        },
+        {
+            "id": 1002,
+            "type": "project",
+            "title": "",
+            "body": "A simple web application made to help my 5-year old practice arithmetic operations. Is ment to be used in mobile browsers. It uses the device's text-to-voice functionality to spell out the operations (in Spanish). It was build with plain javascript and PaperCSS framework.",
+            "links":[
+                {"label": "Live Demo", "url": "https://math.maicspace.com"},
+                {"label": "PaperCSS", "url": "https://www.getpapercss.com/"}
+            ],
+            "date": "~2020",
+            "tags": ["html", "css", "javascript"],
+            "noImage": false,
+            "image": "/img/math_screenshot.jpg",
+            "user": {
+                "firstName": "Math",
+                "lastName": "",
+                "maidenName": "",
+                "image": "/img/avatar.png"
+            }
+        },
+        {
+            "id": 1003,
+            "type": "project",
+            "title": "",
+            "body": "A web-based Operating System simulator. A personal development used to display my resume. Simple login screen with user/password validation. Taskbar with window controls. Start Menu with submenus. Desktop icons. Draggable and resizable windows with Close, Maximize and Minimize buttons implemented. Wallpaper rotation. This was used as my personal resume/portfolio back in 2015.",
+            "links":[
+                {"label": "Live Demo", "url": "https://webos.maicspace.com"}
+            ],
+            "date": "2015",
+            "tags": ["html", "css", "javascript", "jquery", "bootstrap"],
+            "noImage": false,
+            "image": "/img/webos_screenshot.png",
+            "user": {
+                "firstName": "WebOs",
+                "lastName": "",
+                "maidenName": "",
+                "image": "/img/avatar.png"
+            }
+        },
+        {
+            "id": 2000,
+            "type": "history",
+            "title": "",
+            "body": "Contributed to the building and maintenance of many web solutions. Some build from scratch with technologies  like Craft CMS, Expression Engine or Wordpress. On a regular basis my tasks included scheduled maintenance to applications and/or servers performing the upgrade of software as required and bug fixing. Through adept utilization of NGINX, ExpressionEngine, Craft, WordPress, and a skill set encompassing PHP, JavaScript, React, Vue.js, CSS, HTML, and SQL, our collaborative efforts resulted in the proficient construction and continual maintenance of a diverse range of web solutions. By seamlessly fusing innovative UI/UX design with meticulous frontend development, we ensured optimal responsiveness, scalability, and performance, while fostering a culture of code excellence through thorough reviews and issue resolution.",
+            "date": "Apr 2022 - Apr 2023",
+            "tags": ["html", "css", "javascript", "sql", "php", "wordpress", "expressionengine", "craftcms"],
+            "noImage": true,
+            "user": {
+                "firstName": "Software Engineer",
+                "lastName": "@",
+                "maidenName": "Patmos Hosting",
+                "image": "/img/patmoshosting_logo.jpeg"
+            }
+        },
+        {
+            "id": 2001,
+            "type": "history",
+            "title": "",
+            "body": "Part of the team of engineers in charge of developing the company's own marketing product. My tasks included development of frontend features of the product. Through collaborative efforts as part of the engineering team, we successfully delivered our proprietary marketing product, enriched with engaging frontend features. Leveraging Vue.JS, React, JavaScript, HTML, and CSS, we not only met but exceeded client expectations, enhancing user experience and reinforcing our company's position at the forefront of innovative marketing solutions.",
+            "date": "Jun 2021 - Feb 2022",
+            "tags": ["html", "css", "javascript", "vuejs"],
+            "noImage": true,
+            "user": {
+                "firstName": "Fronted Developer",
+                "lastName": "@",
+                "maidenName": "Bexi, Inc",
+                "image": "/img/bexiio_logo.jpeg"
+            }
+        },
+        {
+            "id": 2002,
+            "type": "history",
+            "title": "",
+            "body": "Participated on several websites development for different types of clients. Through seamless collaboration with UX/UI designers and backend developers, we successfully delivered captivating and responsive web applications for diverse clients. By leveraging cutting-edge technologies like React, Vue.js, and WordPress, we ensured optimal performance, scalability, and code quality, resulting in visually engaging and high-performing user interfaces across various devices.",
+            "date": "Jul 2019 - Aug 2020",
+            "tags": ["html", "css", "javascript", "react"],
+            "noImage": true,
+            "user": {
+                "firstName": "Fronted Developer",
+                "lastName": "@",
+                "maidenName": "Parthenon Tech",
+                "image": "/img/parthenon_logo.png"
+            }
+        },
+        {
+            "id": 2003,
+            "type": "history",
+            "title": "",
+            "body": "Development and support of several websites for clients. Some of them built on Wordpress or ExpressionEngine. Streamlined and enhanced user experience by translating design concepts into functional, high-performance front-end interfaces, contributing to the overall success of the applications.",
+            "date": "Nov 2015 - Dic 2017",
+            "tags": ["html", "css", "javascript", "php", "expressionengine", "wordpress", "laravel", "jquery"],
+            "noImage": true,
+            "user": {
+                "firstName": "Full-stack Developer",
+                "lastName": "@",
+                "maidenName": "GreenEgg Media",
+                "image": "/img/greeneggmedia_logo.png"
+            }
+        },
+        {
+            "id": 2004,
+            "type": "history",
+            "title": "",
+            "body": "Created a large number of website for motorcycle dealerships, most of them migration from current/old site to our own platform. Successfully spearheaded the seamless migration of numerous motorcycle dealerships to our bespoke platform, resulting in enhanced user experiences and streamlined management. Simultaneously, played a pivotal role in advancing the company's internal efficiency by co-creating a robust reporting system, leveraging a skill set encompassing JavaScript, jQuery, HTML, CSS, PHP, and SQL.",
+            "date": "Mar 2014 - Aug 2014",
+            "tags": ["html", "css", "javascript", "php", "jquery"],
+            "noImage": true,
+            "user": {
+                "firstName": "Editor de Paginas Web",
+                "lastName": "@",
+                "maidenName": "Juniper Data Center",
+                "image": "/img/juniper_logo.jpg"
+            }
+        },
+        {
+            "id": 2005,
+            "type": "history",
+            "title": "",
+            "body": "Participated on several projects for clients who needed a Oracle Database Solution. Task often included customization of user interfaces, forms, and reports as needed by client. Successfully collaborated with clients to deliver tailored Oracle Database Solutions, enhancing their operational efficiency and data management. Our accomplishments encompassed seamless customization of user interfaces, dynamic forms, and insightful reports utilizing a technology stack including Java, JavaScript, jQuery, Node.js, MySQL, HTML, CSS, SQL, and PHP, ultimately optimizing their business processes and facilitating informed decision-making.",
+            "date": "Jun 2008 - Sep 2012",
+            "tags": ["html", "css", "javascript", "java", "sql"],
+            "noImage": true,
+            "user": {
+                "firstName": "Developer",
+                "lastName": "@",
+                "maidenName": "Condor Consulting Services",
+                "image": "/img/i_condor_logo.jpeg"
+            }
+        }
+    ]
+}
