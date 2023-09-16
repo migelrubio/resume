@@ -38,6 +38,7 @@ export async function getPostsByType(type){
     const data = posts.data.filter(
         item => item.type == type
     )
+    data.map(item => item.reactions = Math.floor(Math.random()*100))
     return data
 }
 
@@ -45,6 +46,7 @@ export async function getPostById(id){
     const data = posts.data.find(
         item => item.id == id
     )
+    data.reactions = Math.floor(Math.random()*100)
     return data
 }
 
@@ -52,5 +54,6 @@ export async function getPostsByTag(tag){
     const data = posts.data.filter(
         item => item.tags.includes(tag)
     )
+    data.map(item => item.reactions = Math.floor(Math.random()*100))
     return data
 }

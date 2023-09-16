@@ -28,7 +28,7 @@
                 {"label": "Live Demo", "url": "https://maicspace.com/wp"}
             ],
             "date": "2022",
-            "tags": ["html", "css", "javascript", "wordpress", "react", "bootstrap", "jquery"],
+            "tags": ["html", "css", "javascript", "wordpress", "react", "bootstrap", "jquery", "php"],
             "noImage": false,
             "image": "/img/cancionero_screenshot.png",
             "user": {
