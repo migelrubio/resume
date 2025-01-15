@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react'
 export const Post = ({ post=null}) => {
     const [comments, setComments] = useState([])
     const [liked, setLiked] = useState(false)
-    const [likes, setLikes] = useState(post?.reactions || 0)
+    const [likes, setLikes] = useState(post?.reactions.likes || 0)
     //const [randH, setRandH] = useState((Math.floor(Math.random()*6) + 3) * 100)
     //const [randDate, setRandDate] = useState(randomDate(new Date('2012','07','18'), new Date()).toDateString())
     const [showComments, setShowComments] = useState(false)
