@@ -5,7 +5,9 @@
             "type": "project",
             "title": "",
             "body": "Being part of Engineers Without Border Mexico since September 2024.",
-            "links":[],
+            "links":[
+                {"label": "EWB", "url": "https://www.ewb-international.org/"}
+            ],
             "date": "Sep 2024",
             "tags": ["html", "css", "javascript"],
             "noImage": true,
