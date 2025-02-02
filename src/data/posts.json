@@ -81,6 +81,21 @@
             "id": 2000,
             "type": "history",
             "title": "",
+            "body": "Offering expertise in web development on a project-by-project basis. Involved in a variety of tasks related to designing, building, and maintaining websites, mobile apps and web applications.",
+            "date": "Apr 2023 -",
+            "tags": ["html", "css", "javascript", "sql", "php"],
+            "noImage": true,
+            "user": {
+                "firstName": "Freelance Developer Consultant",
+                "lastName": "",
+                "maidenName": "",
+                "image": "/img/dev-logo.png"
+            }
+        },
+        {
+            "id": 2001,
+            "type": "history",
+            "title": "",
             "body": "Contributed to the building and maintenance of many web solutions. Some of them built from scratch with technologies like Craft CMS, Expression Engine or Wordpress. Often requiring custom development using PHP, Javascript, AlpineJS, etc. On a regular basis my tasks included scheduled maintenance to applications and/or servers performing the upgrade of software as required and bug fixing.",
             "date": "Apr 2022 - Apr 2023",
             "tags": ["html", "css", "javascript", "sql", "php", "wordpress", "expressionengine", "craftcms"],
@@ -93,7 +108,7 @@
             }
         },
         {
-            "id": 2001,
+            "id": 2002,
             "type": "history",
             "title": "",
             "body": "Part of the team of engineers in charge of developing the company's own marketing product. My tasks included development of frontend features and fixing bugs of the product using VueJs. I also developed websites for clients using Wordpress and custom code in PHP, SQL and Javascript.",
@@ -108,7 +123,7 @@
             }
         },
         {
-            "id": 2002,
+            "id": 2003,
             "type": "history",
             "title": "",
             "body": "Participated on several websites development for different types of clients using Wordpress and custom code in PHP, SQL and Javascript. Also contributed in the development of the compay's own product for Maker Spaces using React.",
@@ -123,7 +138,7 @@
             }
         },
         {
-            "id": 2003,
+            "id": 2004,
             "type": "history",
             "title": "",
             "body": "Development, manintenance and support of several websites for clients. Some of them built on Wordpress or ExpressionEngine often requiring custom development with PHP, SQL and Javascript.",
@@ -138,7 +153,7 @@
             }
         },
         {
-            "id": 2004,
+            "id": 2005,
             "type": "history",
             "title": "",
             "body": "Created a large number of website for motorcycle dealerships, most of them migration from current/old site to our own platform with HTML and CSS and sometimes Javascript.",
@@ -153,7 +168,7 @@
             }
         },
         {
-            "id": 2005,
+            "id": 2006,
             "type": "history",
             "title": "",
             "body": "Participated on several projects for clients who needed a Oracle Database Solution. Task often included customization of user interfaces, forms, and reports as needed by client.",
