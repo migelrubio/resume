@@ -4,6 +4,22 @@
             "id": 1000,
             "type": "project",
             "title": "",
+            "body": "Being part of Engineers Without Border Mexico since September 2024.",
+            "links":[],
+            "date": "Sep 2024",
+            "tags": ["html", "css", "javascript"],
+            "noImage": true,
+            "user": {
+                "firstName": "EWB Mexico volunteer ",
+                "lastName": "",
+                "maidenName": "",
+                "image": "/img/avatar.png"
+            }
+        },
+        {
+            "id": 1001,
+            "type": "project",
+            "title": "",
             "body": "This project is a web application built using NextJs and React to show my resume as a social media platform. It shows my job history and side projects as posts. Has the ability to filter by technologies used or 'tags'. Home page has some random posts fetched from DummyJson along with random images from Picsum Photos. Posts can be liked and commented.",
             "links":[
                 {"label": "DummyJson", "url": "https://dummyjson.com"},
@@ -20,7 +36,7 @@
             }
         },
         {
-            "id": 1001,
+            "id": 1002,
             "type": "project",
             "title": "",
             "body": "A Wordpress plugin built with React that displays song lyrics on laptop or desktop computers. Wordpress was used as backed as an excercise. The goal of this plugin is to display any text divided into columns as big as possible whitin the viewport. It is intended to display songs lyrics and/or tabs while playing the guitar and avoid having to scroll the page.",
@@ -39,7 +55,7 @@
             }
         },
         {
-            "id": 1002,
+            "id": 1003,
             "type": "project",
             "title": "",
             "body": "A simple web application made to help my 5-year old practice arithmetic operations. Is ment to be used in mobile browsers. It uses the device's text-to-voice functionality to spell out the operations (in Spanish). It was build with plain javascript and PaperCSS framework.",
@@ -59,7 +75,7 @@
             }
         },
         {
-            "id": 1003,
+            "id": 1004,
             "type": "project",
             "title": "",
             "body": "A web-based Operating System simulator. Simple login screen with user/password validation. Taskbar with window controls. Start Menu with submenus. Desktop icons. Draggable and resizable windows with Close, Maximize and Minimize buttons implemented. Wallpaper rotation. This was used as my personal resume/portfolio back in 2015.",

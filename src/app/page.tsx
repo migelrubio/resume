@@ -4,7 +4,7 @@ import { getPostById } from '@/lib/posts'
 
 export default async function Home() {
   
-  const intro = await getPostById(1000)
+  const intro = await getPostById(1001)
   //console.log(intro)
   return (
     <div className="flex flex-col gap-4">
