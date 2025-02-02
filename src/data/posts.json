@@ -4,7 +4,7 @@
             "id": 1000,
             "type": "project",
             "title": "",
-            "body": "This project is a web application build using NextJs and React to show my resume as a social media platform. It shows my job history and side projects as posts. Has the ability to filter by technologies used or 'tags'. Home page has some random posts fetched from DummyJson along with random images from Picsum Photos. Posts can be liked and commented.",
+            "body": "This project is a web application built using NextJs and React to show my resume as a social media platform. It shows my job history and side projects as posts. Has the ability to filter by technologies used or 'tags'. Home page has some random posts fetched from DummyJson along with random images from Picsum Photos. Posts can be liked and commented.",
             "links":[
                 {"label": "DummyJson", "url": "https://dummyjson.com"},
                 {"label": "Picsum Photos", "url": "https://picsum.photos"}
@@ -101,7 +101,7 @@
             "tags": ["html", "css", "javascript", "vuejs", "wordpress", "php", "jquery"],
             "noImage": true,
             "user": {
-                "firstName": "Fronted Developer",
+                "firstName": "Front End Developer",
                 "lastName": "@",
                 "maidenName": "Bexi, Inc",
                 "image": "/img/bexiio_logo.jpeg"
@@ -116,7 +116,7 @@
             "tags": ["html", "css", "javascript", "react", "wordpress", "php"],
             "noImage": true,
             "user": {
-                "firstName": "Fronted Developer",
+                "firstName": "Front End Developer",
                 "lastName": "@",
                 "maidenName": "Parthenon Tech",
                 "image": "/img/parthenon_logo.png"
@@ -146,7 +146,7 @@
             "tags": ["html", "css", "javascript", "php", "jquery"],
             "noImage": true,
             "user": {
-                "firstName": "Editor de Paginas Web",
+                "firstName": "Web Sites Editor",
                 "lastName": "@",
                 "maidenName": "Juniper Data Center",
                 "image": "/img/juniper_logo.jpg"
